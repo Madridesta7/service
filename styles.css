@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+}
+
+header {
+    background: #000000; /* Black background */
+    color: #FF0000; /* Red text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FF0000; /* Red links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1e1e1e; /* Darker gray for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.service {
+    background: #FF0000; /* Red for service boxes */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #FF0000; /* Red for headings */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000000; /* Black footer */
+    color: #FF0000; /* Red text */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #FF0000; /* Red border */
+    border-radius: 4px;
+    background: #2a2a2a; /* Darker input background */
+    color: #ffffff; /* White text */
+}
+
+button {
+    background-color: #FF0000; /* Red button */
+    color: #FFFFFF; /* White text */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #000000; /* Black on hover */
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
